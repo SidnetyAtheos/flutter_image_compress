@@ -24,6 +24,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "com.example.flutter_image_compress_android"
     if (project.android.hasProperty("namespace")) {
         namespace 'com.fluttercandies.flutter_image_compress'
     }
